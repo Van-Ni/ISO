@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ISO</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo/LOGO ISO-02.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="logo d-flex align-items-center">
+      <img src="./assets/img/logo/LOGO ISO-02.png" alt="">
+      <h1>Cổng thông tin ISO</h1>
+    </div>
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" style="padding-top: 15px;">
+        <form action="#" id="isoForm">
+          <div class="mb-3 d-flex align-items-center gap-2">
+            <select id="so" class="form-select flex-grow-1 mr-2" name="so">
+              <option value="soCongThuong">Sở công thương</option>
+              <option value="soDuLich">Sở Du lịch</option>
+              <option value="soGiaoDuc">Sở giáo dục và đào tạo</option>
+            </select>
+            <input type="number" class="form-control flex-grow-0" id="year" name="year" value="2024">
+            <button type="submit" id="" class="btn btn-primary">Xem</button>
+          </div>
+        </form>
+        <div class="row justify-content-end">
+          <div class="col-lg-11">
+            <div class="row justify-content-end">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-house"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="50" id="thuTucNoiBo"
+                    class="purecounter">0</span>
+                  <p>Thủ tục nội bộ</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-journal-richtext"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="73" id="thuTucHanhChinh"
+                    class="purecounter">0</span>
+                  <p>Thủ tục hành chính</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box pb-5 pt-0 pt-lg-5">
+                  <i class="bi bi-clock"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="27" class="purecounter">0</span>
+                  <p>Thủ tục C</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box pb-5 pt-0 pt-lg-5">
+                  <i class="bi bi-award"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="22" class="purecounter">0</span>
+                  <p>Thủ tục D</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- month-res -->
+        <div class="row justify-content-between">
+          <div class="col-lg-4 mb-3">
+            <div class="row">
+              <div class="month-res col-md-4 mb-3">
+                <div class="num-month">
+                  <div class="title">NĂM</div>
+                  <span class="num">2024</span>
+                </div>
+              </div>
+              <ul class="list-group col-md-8">
+                <li class="list-group-item">Tổng xử lý
+                  <span class="badge badge-primary badge-pill" id="tongxuly_nam">14</span>
+                </li>
+                <li class="list-group-item">TIẾP NHẬN TRONG KỲ
+                  <span class="badge badge-primary badge-pill" id="tiepnhantrongky_nam">14</span>
+                </li>
+                <li class="list-group-item">KỲ TRƯỚC CHUYỂN SANG
+                  <span class="badge badge-primary badge-pill" id="kytruocchuyensang_nam">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ ĐÚNG HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulydunghan_nam">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ QUÁ HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulyquahan_nam">14</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <div class="row">
+              <div class="month-res col-md-4 mb-3">
+                <div class="num-month">
+                  <div class="title">QÚY</div>
+                  <span class="num">1</span>
+                </div>
+              </div>
+              <ul class="list-group col-md-8">
+                <li class="list-group-item">Tổng xử lý
+                  <span class="badge badge-primary badge-pill" id="tongxuly_quy">14</span>
+                </li>
+                <li class="list-group-item">TIẾP NHẬN TRONG KỲ
+                  <span class="badge badge-primary badge-pill" id="tiepnhantrongky_quy">14</span>
+                </li>
+                <li class="list-group-item">KỲ TRƯỚC CHUYỂN SANG
+                  <span class="badge badge-primary badge-pill" id="kytruocchuyensang_quy">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ ĐÚNG HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulydunghan_quy">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ QUÁ HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulyquahan_quy">14</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <div class="row">
+              <div class="month-res col-md-4 mb-3">
+                <div class="num-month">
+                  <div class="title">THÁNG</div>
+                  <span class="num">3</span>
+                </div>
+              </div>
+              <ul class="list-group col-md-8">
+                <li class="list-group-item">Tổng xử lý
+                  <span class="badge badge-primary badge-pill" id="tongxuly_thang">14</span>
+                </li>
+                <li class="list-group-item">TIẾP NHẬN TRONG KỲ
+                  <span class="badge badge-primary badge-pill" id="tiepnhantrongky_thang">14</span>
+                </li>
+                <li class="list-group-item">KỲ TRƯỚC CHUYỂN SANG
+                  <span class="badge badge-primary badge-pill" id="kytruocchuyensang_thang">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ ĐÚNG HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulydunghan_thang">14</span>
+                </li>
+                <li class="list-group-item">ĐÃ XỬ LÝ QUÁ HẠN
+                  <span class="badge badge-primary badge-pill" id="daxulyquahan_thang">14</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-in">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+              type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bối cảnh của tổ chức</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+              type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Chính sách chất lượng</button>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active overflow-auto" id="nav-home" role="tabpanel"
+            aria-labelledby="nav-home-tab" tabindex="0" style="max-height: 250px; color: #fff;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro nobis natus necessitatibus recusandae enim?
+            Quo vitae eaque dicta hic maiores laudantium veritatis quos. Atque facilis provident itaque, vitae ipsa
+            totam!
+            ?</div>
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+            profile
+          </div>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services ">
+      <div class="container">
+
+        <div class="section-title pt-5" data-aos="fade-up">
+          <h2>Tài liệu</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Tài liệu ban hành</a></h4>
+              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-book" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">Hồ sơ lưu trữ</a></h4>
+              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat tarad limino ata</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-card-checklist" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Đánh giá nội bộ</a></h4>
+              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur</p>
+            </div>
+          </div>
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-binoculars" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Xem xét của lãnh đạo</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section><!-- End Services Section -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Tiến trình xử lý</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="skills-content">
+              <div class="card mb-3">
+                <div class="card-header">
+                  Phản ánh khiếu nại
+                </div>
+                <div class="card-body">
+                  <div class="progress">
+                    <span class="skill">Đã xử lý / tất cả <i class="val">10/10</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-header">
+                  Phản ánh khiếu nại
+                </div>
+                <div class="card-body">
+                  <div class="progress">
+                    <span class="skill">Đã xử lý / tất cả <i class="val">0/0</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+                        aria-valuemax="0">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="card-header">
+                  Phản ánh khiếu nại
+                </div>
+                <div class="card-body">
+                  <div class="progress">
+                    <span class="skill">Đã xử lý / tất cả <i class="val">7/10</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+      const data = {
+        "soCongThuong": {
+          "tenSo": "Sở Công Thương",
+          "thuTucNoiBo": 50,
+          "thuTucHanhChinh": 73,
+          year: 2024,
+          thongke: {
+            nam: {
+              tongxuly: 44,
+              tiepnhantrongky: 441,
+              kytruocchuyensang: 111,
+              daxulydunghan: 322,
+              daxulyquahan: 322,
+            },
+            quy: {
+              tongxuly: 11,
+              tiepnhantrongky: 31,
+              kytruocchuyensang: 212,
+              daxulydunghan: 33,
+              daxulyquahan: 66,
+            },
+            thang: {
+              tongxuly: 12,
+              tiepnhantrongky: 43,
+              kytruocchuyensang: 412,
+              daxulydunghan: 32,
+              daxulyquahan: 10,
+            }
+          }
+        },
+        "soDuLich": {
+          "tenSo": "Sở Du Lịch",
+          "thuTucNoiBo": 60,
+          "thuTucHanhChinh": 172,
+          year: 2024,
+          thongke: {
+            nam: {
+              tongxuly: 33,
+              tiepnhantrongky: 221,
+              kytruocchuyensang: 3,
+              daxulydunghan: 44,
+              daxulyquahan: 7,
+            },
+            quy: {
+              tongxuly: 22,
+              tiepnhantrongky: 99,
+              kytruocchuyensang: 22,
+              daxulydunghan: 11,
+              daxulyquahan: 9,
+            },
+            thang: {
+              tongxuly: 33,
+              tiepnhantrongky: 21,
+              kytruocchuyensang: 121,
+              daxulydunghan: 12,
+              daxulyquahan: 77,
+            }
+          }
+        }
+      };
+
+      const handleSubmit = () => {
+        const selectBox = document.getElementById('so');
+        const yearElement = document.getElementById('year');
+        const selectedOption = selectBox.value;
+        const selectedData = data[selectedOption];
+        console.log('🚀 ~ selectedData:', selectedData, yearElement.value)
+        if (selectedData && selectedData.year === parseInt(yearElement.value)) {
+          document.getElementById('thuTucNoiBo').innerText = selectedData.thuTucNoiBo;
+          document.getElementById('thuTucHanhChinh').innerText = selectedData.thuTucHanhChinh;
+          document.getElementById('tongxuly_nam').innerText = selectedData.thongke.nam.tongxuly;
+          document.getElementById('tiepnhantrongky_nam').innerText = selectedData.thongke.nam.tiepnhantrongky;
+          document.getElementById('daxulydunghan_nam').innerText = selectedData.thongke.nam.daxulydunghan;
+          document.getElementById('kytruocchuyensang_nam').innerText = selectedData.thongke.nam.kytruocchuyensang;
+          document.getElementById('daxulyquahan_nam').innerText = selectedData.thongke.nam.daxulyquahan;
+          document.getElementById('tongxuly_quy').innerText = selectedData.thongke.quy.tongxuly;
+          document.getElementById('tiepnhantrongky_quy').innerText = selectedData.thongke.quy.tiepnhantrongky;
+          document.getElementById('daxulydunghan_quy').innerText = selectedData.thongke.quy.daxulydunghan;
+          document.getElementById('kytruocchuyensang_quy').innerText = selectedData.thongke.quy.kytruocchuyensang;
+          document.getElementById('daxulyquahan_quy').innerText = selectedData.thongke.quy.daxulyquahan;
+          document.getElementById('tongxuly_thang').innerText = selectedData.thongke.thang.tongxuly;
+          document.getElementById('tiepnhantrongky_thang').innerText = selectedData.thongke.thang.tiepnhantrongky;
+          document.getElementById('daxulydunghan_thang').innerText = selectedData.thongke.thang.daxulydunghan;
+          document.getElementById('kytruocchuyensang_thang').innerText = selectedData.thongke.thang.kytruocchuyensang;
+          document.getElementById('daxulyquahan_thang').innerText = selectedData.thongke.thang.daxulyquahan;
+        } else {
+          document.getElementById('thuTucNoiBo').innerText = 0
+          document.getElementById('thuTucHanhChinh').innerText = 0
+          document.getElementById('tongxuly_nam').innerText = 0;
+          document.getElementById('tiepnhantrongky_nam').innerText = 0;
+          document.getElementById('daxulydunghan_nam').innerText = 0;
+          document.getElementById('kytruocchuyensang_nam').innerText = 0;
+          document.getElementById('daxulyquahan_nam').innerText = 0;
+          document.getElementById('tongxuly_quy').innerText = 0;
+          document.getElementById('tiepnhantrongky_quy').innerText = 0;
+          document.getElementById('daxulydunghan_quy').innerText = 0;
+          document.getElementById('kytruocchuyensang_quy').innerText = 0;
+          document.getElementById('daxulyquahan_quy').innerText = 0;
+          document.getElementById('tongxuly_thang').innerText = 0;
+          document.getElementById('tiepnhantrongky_thang').innerText = 0;
+          document.getElementById('daxulydunghan_thang').innerText = 0;
+          document.getElementById('kytruocchuyensang_thang').innerText = 0;
+          document.getElementById('daxulyquahan_thang').innerText = 0;
+        }
+      }
+      handleSubmit();
+      const form = document.getElementById('isoForm');
+      form.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent form submission
+        handleSubmit();
+      });
+    });
+  </script>
+</body>
+
+</html>
